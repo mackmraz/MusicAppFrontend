@@ -29,7 +29,7 @@ export default function LoginButton() {
 
   return (
     <button onClick={() => login()} className="bg-blue-600 px-4 py-2 rounded">
-      Sign in with Google
+      Sign in
     </button>
   );
 }

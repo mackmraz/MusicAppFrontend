@@ -35,7 +35,7 @@ export default function NavigationBar() {
                 <div className="flex shrink-0 items-center">
                   <Link to="/">
                     <img
-                      alt="Your Company"
+                      alt="Octave"
                       src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
                       className="h-8 w-auto"
                     />
