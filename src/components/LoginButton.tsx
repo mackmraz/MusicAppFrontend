@@ -8,7 +8,7 @@ export default function LoginButton() {
   const login = useGoogleLogin({
     onSuccess: async (tokenResponse) => {
       // Placeholder: Replace this URL with your backend endpoint when available
-      const res = await fetch('http://localhost:8080/api/auth/google', {
+      const res = await fetch('http://localhost:8080/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         // Send token to your backend which handles verification & user creation
