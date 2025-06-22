@@ -118,7 +118,7 @@ export default function NavigationBar() {
             </div>
 
             {/* Desktop Navigation Links */}
-            <nav aria-label="Global" className="hidden lg:flex lg:space-x-8 lg:py-2">
+            <nav aria-label="Global" className="hidden lg:flex lg:space-x-8 lg:py-2 text-center">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
