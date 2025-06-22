@@ -4,6 +4,7 @@ import SearchPage from '@/pages/MusicSearchPage';
 import ProfilePage from '@/pages/ProfilePage';
 import LoginPage from '@/pages/LoginPage';
 import PrivateRoute from '@/auth/PrivateRoute';
+import RegistrationPage from '@/pages/RegistrationPage'
 
 export default function AppRoutes() {
   return (
@@ -12,6 +13,7 @@ export default function AppRoutes() {
       <Route path="/search" element={<SearchPage />} />
       <Route path="/profile" element={<PrivateRoute><ProfilePage /></PrivateRoute>} />
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegistrationPage />} />
     </Routes>
   );
 }
